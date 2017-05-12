@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.14" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.test.TableBean" project="SimpleJava" 
+    file="/SimpleJava/src/main/java/com/test/TableBean.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="389" y="214"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.test.TableBean.InventoryItem" project="SimpleJava" 
+    file="/SimpleJava/src/main/java/com/test/TableBean.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="358" y="591"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.test.SortableList" project="SimpleJava" 
+    file="/SimpleJava/src/main/java/com/test/SortableList.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="261" width="202" x="15" y="55"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="cl.bice.inversiones.view.bean.funciones.ejecutivo.CarteraEjecutivoBean" 
+    project="CaptacionesWeb" 
+    file="/CaptacionesWeb/src/cl/bice/inversiones/view/bean/funciones/ejecutivo/CarteraEjecutivoBean.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="303" width="248" x="604" y="17"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="cl.bice.inversiones.view.form.CarteraEjecutivoForm" project="CaptacionesWeb" 
+    file="/CaptacionesWeb/src/cl/bice/inversiones/view/form/CarteraEjecutivoForm.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1051" y="257"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="cl.bice.inversiones.vo.storeProcedure.CarteraEjecutivoVO" 
+    project="CaptacionesModelo" 
+    file="/CaptacionesModelo/src/cl/bice/inversiones/vo/storeProcedure/CarteraEjecutivoVO.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1276" y="651"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="cl.bice.inversiones.view.wrapper.WrapperCarteraEjecutivo" project="CaptacionesWeb" 
+    file="/CaptacionesWeb/src/cl/bice/inversiones/view/wrapper/WrapperCarteraEjecutivo.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="898" y="645"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="cl.bice.inversiones.view.form.TablaOrdenable" project="CaptacionesWeb" 
+    file="/CaptacionesWeb/src/cl/bice/inversiones/view/form/TablaOrdenable.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1321" y="174"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <nesting id="9">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="2"/>  
+  </nesting>  
+  <generalization id="10">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="8"/>  
+  </generalization>  
+  <association id="11">    
+    <bendpoint x="402" y="411"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="12" name="carInventory"/>      
+      <multiplicity id="13" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="14">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="15" name="cartera"/>      
+      <multiplicity id="16" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="17">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="18" name="form"/>      
+      <multiplicity id="19" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="20">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

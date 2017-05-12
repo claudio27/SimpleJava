@@ -2,13 +2,12 @@ package com.claudio.Comparacion;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.Iterator;
 import java.util.List;
 
 public class Main {
 	
-	public static void main(String[] args) throws InterruptedException {
+	public static void main(String[] args){
 		
 		List<CarteraDeposito> li = new ArrayList<CarteraDeposito>();
 		
@@ -42,8 +41,6 @@ public class Main {
 		
 		Collections.sort(li, new MiComparador("hoy"));
 		
-		Thread.sleep(4000);
-		System.err.println("-------------------------------");
 		
 		Iterator<CarteraDeposito> it2 = li.iterator();
 		
@@ -51,8 +48,6 @@ public class Main {
 			System.out.println(it2.next());
 		}
 		
-		Thread.sleep(4000);
-		System.err.println("-------------------------------");
 	}
 
 }
